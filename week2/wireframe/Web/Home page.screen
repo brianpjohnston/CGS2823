@@ -1,0 +1,118 @@
+﻿<?Infragistics.Models format="xaml" version="29"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                          Id="7eec3f37-87b6-48a2-9c03-f30b4cd54ce1" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="320" Height="548" Id="fe54faa6-f153-4cde-8440-9875949981a5">
+            <Content.Layers>
+                <Layer Id="9a2b555b-241e-4a56-8db4-0a43bc28ff00" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a5af1620-171a-4135-ab2e-d7d25863e18b" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="320,548" Id="efa349a9-af71-4c8a-959f-ec183b643a26" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="51aa3028-d2a2-4ef1-88bf-8186e30dc6a0" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/21/2016 17:56:58" Id="3d0a18a9-f53c-440c-9180-ab89177613f2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="22d9718b-997f-4dff-9a33-4370013cb554">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <BootstrapBox Id="07a84fd2-64c2-40a8-8a72-4cc5dda46ba9" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="81fa57d3-f3e9-4e58-9bf8-2fe40136bcda">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="9161dfb6-bec0-479f-b181-6bb644ce6502">
+                                                    <Row.Children>
+                                                        <Column Id="163536ab-5f35-46ed-ab01-f84166edc5c0" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Title RichText="&lt;Run FontSize=&quot;28&quot; &gt;ABC Dog Grooming Gallery&lt;/Run&gt;" Id="60941aed-b5de-45b7-a833-8c05cd7f8be9" Panel.Bounds="19,13,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="28f9720f-86a5-4b61-90e9-f322b02e579b" BootstrapContainer.SpanSm="2" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Link Text="About us" FontStyle="Normal|Underline" Id="831bacae-a712-4420-aae4-f282137a8bc6" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilityMd="Hidden" Panel.Bounds="15,135,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Link Text="Gallery" FontStyle="Normal|Underline" Id="cf130c81-8114-489b-9be7-147bd1b506d3" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilitySm="Hidden" BootstrapContainer.VisibilityXs="Hidden" Panel.Bounds="15,19,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Link Text="Services" FontStyle="Normal|Underline" Id="2fbfa226-2a2d-4e68-8a4c-3e184bb7b416" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilitySm="Hidden" BootstrapContainer.VisibilityXs="Hidden" Panel.Bounds="15,51,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Link Text="Appointment" FontStyle="Normal|Underline" Id="39191be0-0013-47fd-9646-e6a400e5fb78" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilitySm="Hidden" BootstrapContainer.VisibilityXs="Hidden" Panel.Bounds="15,84,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="a67d9d92-0eb3-4a82-a242-9e4ca9a9df51" BootstrapContainer.SpanSm="2" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Link Text="Gallery" FontStyle="Normal|Underline" Id="657de1be-975d-4497-b8a9-bbd3fc42f18c" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilityMd="Hidden" Panel.Bounds="-118,33,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="54c6fbd8-df37-473e-b0c9-aea2ae87aea6" BootstrapContainer.SpanSm="2" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Link Text="Services" FontStyle="Normal|Underline" Id="886fa513-05ed-4067-b163-6ca545034248" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilityMd="Hidden" Panel.Bounds="-252,33,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="30e4d6e5-10d5-4ca9-bf25-539c0c08d02e" BootstrapContainer.SpanSm="2" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Link Text="Appointment" FontStyle="Normal|Underline" Id="a4c3cb4a-019d-4616-8ad6-7a4eac718b6b" BootstrapContainer.HorizontalAlignment="Left" BootstrapContainer.VisibilityMd="Hidden" Panel.Bounds="-385,66,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="e394b1a5-987c-471c-b418-f781ba7c5638" BootstrapContainer.SpanXs="12" Panel.Bounds="0,0,0*,5" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="173aed1f-8b82-41c5-9a1c-50ba9307da05">
+                                                    <Row.Children>
+                                                        <Column Id="008e85bd-05d6-4e59-a1df-1646368c5cc2" BootstrapContainer.SpanLg="9" BootstrapContainer.SpanMd="5" BootstrapContainer.SpanSm="8" BootstrapContainer.SpanXs="12" BootstrapContainer.OffsetMd="3" BootstrapContainer.OffsetSm="0" Panel.Bounds="0,0,0*,397" />
+                                                        <Column Id="6d87513b-f3ab-4742-8aee-e92f4ef80da8" BootstrapContainer.SpanXs="12">
+                                                            <Column.Children>
+                                                                <Label RichText="Footer" Align="Center" Id="ba19488a-e839-45b7-8df8-c06ce6795527" Panel.Bounds="52,33,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="ff0f1ae5-5f96-4ffa-945f-613c33aa255f" Panel.Bounds="31,244,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="34fce054-86b3-4b4d-bdb0-3dd4aa567f24" Panel.Bounds="165,242,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="f1b3c087-9c21-4945-9769-3e38e4a51020" Panel.Bounds="169,342,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="8a0bb6bb-6dfb-4462-a699-d8f9de7723bd" Panel.Bounds="28,342,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="ed628cce-1efd-41d0-81a0-1134d26a603b" Panel.Bounds="169,446,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9a2b555b-241e-4a56-8db4-0a43bc28ff00">
+                            <Add.Item>
+                                <Image Id="fd078ff4-8076-4ce5-ba3a-e3e1bba9a16a" Panel.Bounds="28,447,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="fe54faa6-f153-4cde-8440-9875949981a5" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

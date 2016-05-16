@@ -1,0 +1,52 @@
+﻿<?Infragistics.Models format="xaml" version="29"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                          Id="9494d103-0d17-497f-9f76-e009f61f2c0a" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="320" Height="548" Id="0f3bd1e1-340c-4767-b6d3-43c79f8ff8f3">
+            <Content.Layers>
+                <Layer Id="b673b23e-9d0f-499a-a9dc-0d60f226c78a" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="90167773-9389-408e-bf82-759a54ce646c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="320,548" Id="afc6bf95-3892-45f5-b133-2c98b516a010" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="f22fbce3-df50-42d5-a0ce-d27c5419d458" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/21/2016 18:13:10" Id="11719b8a-70e6-41b7-8794-3ed62aa29351">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a68d0504-fe8e-479e-95fe-cb80c5b970e6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b673b23e-9d0f-499a-a9dc-0d60f226c78a">
+                            <Add.Item>
+                                <BootstrapBox Id="cd4883eb-6cf8-4d24-b43d-9e9e9a7db8b0" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="c5f604c9-2dd2-4998-a98e-d273bd79e789">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="0e893df2-4c76-4925-82b4-fd5d26e4bf00">
+                                                    <Row.Children>
+                                                        <Column Id="eb1522a0-a114-4a16-985b-e006a2beac10" BootstrapContainer.SpanXs="12" />
+                                                        <Column Id="e0b50fbf-deff-4edc-a77a-b09ca8061e2d" BootstrapContainer.SpanXs="12" />
+                                                        <Column Id="62598b7d-4eec-4b5c-8a69-e1db20d8c7a5" BootstrapContainer.SpanXs="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="0f3bd1e1-340c-4767-b6d3-43c79f8ff8f3" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
